@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+
+.main{
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.upper{
+    padding: 1rem;
+    /* background-color: rgb(231, 231, 190); */
+    box-shadow: 2px 2px 1px rgb(251, 248, 241);
+    color: azure;
+    border-radius: 1rem;
+    font-weight: 900;
+    background:linear-gradient(rgba(255, 255, 0, 0),grey);
+}
+
+.lower{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lower input{
+    width: 30rem;
+    margin: 1rem;
+    text-align: center;
+    height: 3rem;
+    font-size: 20px;
+    font-weight:500;
+    border-radius: 10px;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.list li{
+    min-width: 30rem;
+    color: rgb(65, 31, 200);
+    padding: 0.5rem;
+    text-align: center;
+    font-weight: 700;
+    list-style: none;
+    background: linear-gradient( white,rgb(10, 48, 119));
+    box-shadow: 2px 2px 5px white;
+    margin: 1rem;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+
+#add{
+    width: 5rem;
+    padding: 10px;
+    background-color: rgb(196, 206, 136);
+    color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.list_items span{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    background-color: rgb(202, 26, 26);
+}
+.list_items{
+    display: flex;
+    justify-content: center;
+}
+
+#RM{
+    padding: 10px;
+    width: 9rem;
+    color: rgb(6, 6, 6);
+    background-color: rgb(182, 44, 44);
+    
+}
